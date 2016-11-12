@@ -113,12 +113,12 @@ NEW_TIMEOUT equ (0xFFFFFFFF) ; over an hour
 			.ascii "/dev/sdcard01"
 			.byte 0x00
 		launch_os_hook_mountpath:
-			.ascii "/vol/sdcard"
+			.ascii "/vol/sdcard/wiiu/boot"
 			.byte 0x00
 			.align 0x4
 
 	fw_img_path:
-		.ascii "/vol/sdcard"
+		.ascii "/vol/sdcard/wiiu/boot"
 		.byte 0x00
 		.align 0x4
 
